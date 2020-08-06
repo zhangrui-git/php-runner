@@ -18,4 +18,4 @@ $proc = new PhpRunner\Process(4, false);
 $proc->addWork($echo);
 $proc->main($argv);
 ```
-`cli$ php phprunner start`
+`shell$ php phprunner start`
