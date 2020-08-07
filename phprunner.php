@@ -14,7 +14,3 @@ $echo->step = 10;
 $proc = new PhpRunner\Process(4, false);
 $proc->addWork($echo);
 $proc->main($argv);
-//$echo = new PhpRunner\EchoTimeWork();
-//$echo->step = 11;
-//$echo->execute();
-//$echo->stop();
